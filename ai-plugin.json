@@ -1,1 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Example Plugin",
+  "name_for_model": "example_plugin",
+  "description_for_human": "Just a test plugin",
+  "description_for_model": "When user says /test, call this plugin...",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://atlancius.github.io/ChatGPT-plugin-hosting/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://example.com/logo.png",
+  "contact_email": "info@example.com",
+  "legal_info_url": "http://example.com/legal"
+}
 
