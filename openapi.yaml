@@ -1,1 +1,22 @@
+openapi: 3.0.1
+info:
+  title: "Example Plugin API"
+  version: "1.0.0"
+paths:
+  /sendSummary:
+    post:
+      summary: "Send summary to somewhere"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                summary:
+                  type: string
+                  description: "The summary text"
+      responses:
+        "200":
+          description: "OK"
 
